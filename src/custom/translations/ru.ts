@@ -92,8 +92,8 @@ export const ru: LangType = {
     'page.body.landing.header.button3': 'register',
 
     'page.body.landing.marketInfo.title.text1': 'Welcome to PyhtonEx.',
-    'page.body.landing.marketInfo.title.text2': 'Buy, sell and trade digital currency.',
-    'page.body.landing.marketInfo.title.button': 'start trading',
+    'page.body.landing.marketInfo.title.text2': 'Buy, Sell and Trade Digital Currencies with "No Commission"',
+    'page.body.landing.marketInfo.title.button': 'Start Trading',
 
     'page.body.landing.platformInfo.item.first.value': '30M+',
     'page.body.landing.platformInfo.item.first.title': 'Customers served',
@@ -106,7 +106,7 @@ export const ru: LangType = {
     'page.body.landing.register.item.text': 'PyhtonEx offers an intuitive interface with real time orderbooks, charting tools, trade history, and a simple order process so you can trade from day one.',
     'page.body.landing.register.item.button': 'register',
 
-    'page.body.landing.features.title': 'PyhtonEx platform features',
+    'page.body.landing.features.title': 'PyhtonEx Platform Features',
     'page.body.landing.features.features.item1.title': 'Exchange',
     'page.body.landing.features.features.item2.title': 'Order Types',
     'page.body.landing.features.features.item3.title': 'Customizable Interface',
@@ -126,7 +126,7 @@ export const ru: LangType = {
     'page.body.landing.tradeOnTheGo.item.text3': 'All the power of PyhtonEx cryptocurrency exchange, in the palm of your hand.',
     'page.body.landing.tradeOnTheGo.item.button': 'let’s try',
 
-    'page.body.landing.startTrading.title': 'Start trading now',
+    'page.body.landing.startTrading.title': 'Start Trading Now',
     'page.body.landing.startTrading.button1': 'register',
     'page.body.landing.startTrading.button2': 'Start trading',
 
