@@ -2,7 +2,7 @@ import * as React from 'react';
 import { InjectedIntlProps, injectIntl } from 'react-intl';
 import { connect } from 'react-redux';
 import { Link, RouteProps, withRouter } from 'react-router-dom';
-import { LogoIcon } from '../../assets/images/LogoIcon';
+import { LogoIcon } from '../../assets/images/PythonExLogo';
 import { MarketsTable } from '../../containers';
 import {
     RootState,

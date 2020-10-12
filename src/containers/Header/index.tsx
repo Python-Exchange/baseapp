@@ -3,7 +3,7 @@ import * as React from 'react';
 import { InjectedIntlProps, injectIntl } from 'react-intl';
 import { connect, MapDispatchToPropsFunction } from 'react-redux';
 import { withRouter } from 'react-router-dom';
-import { LogoIcon } from '../../assets/images/LogoIcon';
+import { LogoIcon } from '../../assets/images/PythonExLogo';
 import {
     Market,
     RootState,

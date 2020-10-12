@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 import { compose } from 'redux';
 import { kycSteps } from '../../api';
-import { LogoIcon } from '../../assets/images/LogoIcon';
+import { LogoIcon } from '../../assets/images/PythonExLogo';
 import { Address, Documents, Identity, Phone } from '../../containers';
 import { setDocumentTitle } from '../../helpers';
 import {
