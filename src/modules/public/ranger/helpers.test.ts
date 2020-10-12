@@ -1,4 +1,4 @@
-import { Cryptobase, defaultConfig } from '../../../api';
+import { PyhtonEx, defaultConfig } from '../../../api';
 import { DEFAULT_TRADING_VIEW_INTERVAL } from '../../../constants';
 import { Market, Ticker, TickerEvent } from '../markets';
 import { formatTicker, generateSocketURI, marketKlineStreams, periodMinutesToString, periodStringToMinutes, streamsBuilder } from './helpers';
@@ -166,7 +166,7 @@ describe('ranger helpers', () => {
         });
 
         it('finex enabled private streams', () => {
-            Cryptobase.config = {
+            PyhtonEx.config = {
                 ...defaultConfig,
                 finex: true,
             };

@@ -76,7 +76,7 @@ interface TableProps {
 }
 
 /**
- * Cryptobase Table overrides default table
+ * PyhtonEx Table overrides default table
  */
 class Table extends React.Component<TableProps, TableState> {
     constructor(props: TableProps) {
