@@ -111,8 +111,9 @@
     &__wrap {
       flex-direction: row;
       justify-content: space-between;
-      max-width: 1180px;
-      padding: 0 20px;
+      max-width: 100%;
+	  width: 100%
+      padding: 0 30px;
 
       &__right {
         align-items: center;
@@ -125,10 +126,18 @@
           width: 170px;
 
           &--simple {
-            background: transparent;
+            background: var(--cta-layer-color);			
             height: 32px;
             margin-right: 21px;
-            width: 76px;
+			width: 85px;
+			background: #fff;
+			border: 2px solid var(--primary-cta-color);
+			border-radius: 5px;
+			color: var(--primary-cta-color);
+			font-size: 12px;
+			font-weight: 600;
+			margin-right: 16px;
+			padding: 16px 16px;
           }
         }
       }
@@ -566,7 +575,7 @@
     }
 
     &__features__content__row__item {
-      height: 380px;
+      height: 460px;
     }
 
     &__trade-on-the-go__wrap__content {
