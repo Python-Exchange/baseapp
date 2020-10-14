@@ -30,7 +30,7 @@ export const DEFAULT_KYC_STEPS = ['email', 'phone', 'profile', 'document', 'addr
 export const colors = {
     light: {
         chart: {
-            primary: '#fff',
+            primary: 'var(--rgb-body-background-color)',
             up: '#54B489',
             down: '#E85E59',
         },
